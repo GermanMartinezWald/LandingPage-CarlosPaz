@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- Metadatos -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Links -->
+  <link rel="shortcut icon" href="./img/favicon.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <!-- Scripts y logo wpp -->
+  <script src="https://kit.fontawesome.com/486ffa3d02.js" crossorigin="anonymous"></script>
+  <!-- animaciones aos -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- owl-carousel -->
+  <!-- owl carousel -->
+  <link rel="stylesheet" href="./lib/owlCarousel/dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="./lib/owlCarousel/dist/assets/owl.theme.default.min.css">
+  <!-- metas -->
+  <meta name="description"
+    content="Invertí en Buena Vista Villa Carlos Paz, departamentos funcionales 2, 3 y 4 ambientes, con el diseño de vanguardia que esperas.
+A sólo 50 metros del centro comercial y en cercanía con los principales puntos turísticos y culturales de la ciudad.
+El desarrollo inmobiliario Buenas Vista, busca conectar los principales puntos de la ciudad, integrando las necesidades de tu día a día con la energía de las sierras.">
+  <meta name="keywords"
+    content="Desarrollo inmobiliario en Cordoba, Desarrollo inmobiliario en Villa Carlos Paz, Departamentos de pozo en Villa Carlos Paz, Inversion inmobiliaria en villa Carlos Paz, Inversion inmobiliaria en Cordoba, Desarrollo inmobiliario">
+  <!-- Titulo -->
+  <title>Buena Vista Villa Carlos Paz. - Tene tu departamento en una de la ciudades mas lindas e importantes de Córdoba
+    | Por
+    Ammiraglia Desarrolladora, 30 años de experiencia en desarrollos inmobiliarios.</title>
+</head>
+
+<body>
+  <!-- INICIO NAVBAR -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-menu">
+      <div class="container menu-hamburguesa">
+        <a class="navbar-brand mb-2" href="./index.html">
+          <img src="img/logo.png" alt="logo-buenavista" width="300" class="logo-navbar" id="inicio">
+        </a>
+
+        <button class="navbar-toggler botonmenu mb-2 mt-1" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon lineasboton"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item w-auto mx-auto"><a class="nav-link m-3 nav-link-color-letra" href="#ubicacion">Ubicación
+              </a></li>
+            <li class="nav-item w-auto mx-auto"><a class="nav-link m-3 nav-link-color-letra"
+                href="#departamentos">Departamentos</a>
+            </li>
+            <li class="nav-item w-auto mx-auto"><a class="nav-link m-3 nav-link-color-letra"
+                href="#nosotros">Nosotros</a>
+            </li>
+            <li class="nav-item w-auto mx-auto"><a
+                class="nav-link m-3 p-2 nav-link-color-letra-contacto nav-link-bg-color" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- FIN NAVBAR -->
+
+  <!-- INICIO VILLA CARLOS PAZ -->
+  <section class="primera-seccion col-md-12 col-sm-12">
+    <div class=" container primera-seccion__presentacion" data-aos="fade-up" data-aos-duration="1000">
+      <h2 class="primera-seccion__presentacion-subtitulo ">Buena vista. Buena vida.</h2>
+      <h1 class="primera-seccion__presentacion-titulo">Villa Carlos Paz</h1>
+      <p class="primera-seccion__presentacion-primer-parrafo">Departamentos funcionales con diseño de vanguardia. Viví
+        en un entorno de modernidad y naturaleza, cerca de los principales puntos de interés de la ciudad.</p>
+      <p class="primera-seccion__presentacion-segundo-parrafo">¿Querés saber más sobre el proyecto? Dejanos tus datos y
+        te llamamos en breve.
+      </p>
+      <form class="formulario-contacto-primera-seccion" id="contactForm" name="sentMessage" class="needs-validation"
+        novalidate>
+        <div class=" row form-row seccion-form">
+          <div class="formulario-contacto-primera-seccion__primer-campo form-group">
+            <input type="text" class="form-control form-header" id="name" required="required"
+              data-validation-required-message="Por favor ingrese su nombre." placeholder="Nombre  completo">
+            <p class="help-block text-danger"></p>
+          </div>
+          <div class="formulario-contacto-primera-seccion__segundo-campo form-group">
+            <input type="email" class="form-control form-header" id="email" placeholder="Email" required="required"
+              data-validation-required-message="Por favor ingrese un email valido">
+            <p class="help-block text-danger"></p>
+          </div>
+          <div class="formulario-contacto-primera-seccion__tercer-campo form-group">
+            <input type="text" class="form-control" id="phone" placeholder="Teléfono" required="required"
+              data-validation-required-message="Ingrese un n° de Teléfono.">
+            <p class="help-block text-danger"></p>
+          </div>
+          <button type="submit" class="btn formulario-contacto-primera-seccion__boton-enviar botones"
+            id="sendMessageButton">Empezar</button>
+        </div>
+      </form>
+    </div>
+    <!-- <a href=" https://api.whatsapp.com/send?phone=5493537554837" target="_blank">
+      <i class="fab fa-whatsapp primera-seccion__presentacion-icono-whatsapp"></i></a> -->
+    <a href="https://api.whatsapp.com/send?phone=5493537554837" target="_blank">
+      <i class="fab fa-whatsapp primera-seccion__presentacion-icono-whatsapp">
+        <div class="msj-flotante  content content2 content3">
+          <img class="cuadro-dialogo-flotante" src="./img/iconos/cuadro-dialogo-verde.png" alt="">
+          <p class="texto-mensaje-flotante">¡Hola! Estamos disponibles. ¿En qué te podemos ayudar?</p>
+        </div>
+      </i></a>
+    <!-- <a class="" href="#inicio"><i class="fas fa-chevron-up flotante-boton-volver"></i></a> -->
+
+  </section>
+  <!-- FIN VILLA CARLOS PAZ -->
+
+  <!-- INICIO ESTILO URBANO -->
+  <section class="segunda-seccion">
+    <div class="container ">
+      <div class="row justify-content-center">
+        <h2 class="text-center color-letradetitulo">Estilo urbano y relajado</h2>
+        <p class="text-center color-letradetexto">Conectadas con los principales puntos de la ciudad, nuestras viviendas
+          están pensadas para integrar las necesidades de tu día a día con la energía de las sierras.</p>
+      </div>
+    </div>
+  </section>
+  <!-- FIN ESTILO URBANO -->
+  <!-- paralax -->
+  <section class="parallax">
+  </section>
+  <!-- FIN paralax -->
+
+  <!-- SECCION MAPA -->
+  <div class="container p-3 card-mapa" id="ubicacion">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+        <h2 class="subtit-mapa">Todo lo que necesitas, a tu alcance.</h2>
+        <p class="parrafo1-mapa">
+          <b>Buena Vista Carlos Paz</b> es mucho más que una buena inversión. Es escapar de lo rutinario y transformar
+          tu calidad de vida. Es compartir un asado en el SUM con amigos o disfrutar un momento de relax en la pileta y
+          en compañía de tu familia.
+        </p>
+        <p class="subtit2-mapa"><b>CERCA DE TODO</b></p>
+        <P class="parrafo2-mapa">A sólo 50 metros del centro comercial y en cercanía con los principales puntos
+          turísticos y culturales de la ciudad.</P>
+        <div class="botondelmapa">
+          <button type="button" class="btn botones botonmapa" onclick="location.href='#formulario'"><b>Quiero saber
+              más</b></button>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6"><iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d979.6061712846613!2d-64.49719898107807!3d-31.422637251313947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d66442916ca77%3A0x90ff579e87e75b87!2sJos%C3%A9%20Ingenieros%2080%2C%20X5152%20Villa%20Carlos%20Paz%2C%20C%C3%B3rdoba!5e1!3m2!1ses-419!2sar!4v1627403046628!5m2!1ses-419!2sar"
+          class="mapaedit" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <div class="botondelmapa">
+        <button type="button" class="btn botones botonmapa-mobile" onclick="location.href='#formulario'"><b>Quiero saber
+            más</b></button>
+      </div>
+    </div>
+    <!-- <div class="contenedor-boton-mostrar-on contenedor-boton-mostrar-off">
+      <button type="button" name="boton1" id="mostrar" aria-valuemax="mostrar elementos" class="boton-mostrar"><i
+          class="fas fa-arrow-down flecha-mostrar"></i>
+      </button>
+    </div> -->
+
+  </div>
+
+  <!-- FIN SECCION MAPA -->
+
+  <!-- seccion todo lo que necesitas está a tu alcance -->
+  <!-- <div class="row mt-2 contenedor-imagen-texto-informacion">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+        <h2 class="color-subtit"><b>Todo lo que necesitás, a tu alcance.</b></h2>
+        <p class="texto-informacion"><b>Buena Vista Carlos Paz</b> es mucho más que una buena inversión. Es escapar de
+          lo
+          rutinario y transformar tu calidad de
+          vida. Es compartir un asado en el SUM con amigos o disfrutar un momento de relax en la pileta y en compañía de
+          tu
+          familia.
+        </p>
+        <p class="texto-informacion"><b> CERCA DE TODO </b> <br>
+          A sólo 50 metros del centro comercial y en cercanía con los principales puntos turísticos y culturales de la
+          ciudad.</p>
+      </div>
+  
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5324.050837092335!2d-54.89535519893797!3d-34.9291083184338!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzTCsDU1JzQwLjgiUyA1NMKwNTMnNDEuMCJX!5e1!3m2!1ses!2sar!4v1626787182319!5m2!1ses!2sar"
+          class="mapaedit" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+  
+      <div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1 col-xxl-1 text-center justify-content-center mt-3">
+        <button type="button" class="btn boton-sabermas botones" onclick="location.href='#formulario'"><b>Quiero saber
+            más</b></button>
+      </div>
+    </div> -->
+  <!--  FIN seccion todo lo que necesitas está a tu alcance -->
+  <!-- inicio div boton mostrar -->
+  <div id="oculto" class="container-fluid  oculto">
+    <!-- CARDS ATRACCIONES PARA DESKTOP -->
+    <section class="container-atracciones">
+      <img src="./img/iconos/buenvavista-imagen.png"
+        alt="Buena Vista Villa Carlos Paz, Carlos Paz, desarrollo inmobiliario, Ammiraglia desarrolladora"
+        class="logo-buenavista-atracciones">
+      <h3 class="subtitulo-buenavista-atracciones">Carlos Paz es una de las ciudades más importantes de Córdoba,
+        reconocida por su diversidad
+        de paisajes, balnearios naturales y atractivo turístico.</h3>
+      <div class="atracciones">
+        <div class="card-atracciones">
+          <img src="./img/atracciones/balnerios-naturales.png"
+            alt="Buena Vista Villa Carlos Paz, Balnearios naturales, desarrollo inmobiliario, Ammiraglia desarrolladora"
+            class="imagen-card-atracciones">
+          <h5 class="texto-card-atracciones">Balnearios naturales</h5>
+        </div>
+        <div class="card-atracciones">
+          <img src="./img/atracciones/entretenimiento.jpg"
+            alt="Buena Vista Villa Carlos Paz, Entretenimiento en familia, desarrollo inmobiliario, Ammiraglia desarrolladora"
+            class="imagen-card-atracciones">
+          <h5 class="texto-card-atracciones">Entretenimiento en familia</h5>
+        </div>
+        <div class="card-atracciones">
+          <img src="./img/atracciones/vida-nocturna.png"
+            alt="Buena Vista Villa Carlos Paz, Vida nocturna, desarrollo inmobiliario, Ammiraglia desarrolladora"
+            class="imagen-card-atracciones">
+          <h5 class="texto-card-atracciones">Vida nocturna</h5>
+        </div>
+        <div class="card-atracciones">
+          <img src="./img/atracciones//vista-panoramica.png"
+            alt="Buena Vista Villa Carlos Paz, Vistas panorámicas, desarrollo inmobiliario, Ammiraglia desarrolladora"
+            class="imagen-card-atracciones">
+          <h5 class="texto-card-atracciones">Vistas panorámicas</h5>
+        </div>
+      </div>
+      <!--FIN CARDS ATRACCIONES PARA DESKTOP -->
+      <!-- CAROUSEL ENTRETENIMIENTOS PARA CELULAR Y TRABLETS -->
+      <div class="owl-carousel owl-theme carousel-entretenimientos">
+        <div class="item">
+          <img src="./img/atracciones/balnerios-naturales.png"
+            alt="Buena Vista Villa Carlos Paz, Balnearios naturales, desarrollo inmobiliario, Ammiraglia desarrolladora"
+            class="imagen-carousel-atracciones">
+          <h5 class="texto-carousel-atracciones">Balnearios naturales</h5>
+        </div>
+        <div class="item">
+          <img src="./img/atracciones/entretenimiento.jpg"
+            alt="Buena Vista Villa Carlos Paz, Entretenimiento en familia, desarrollo inmobiliario, Ammiraglia desarrolladora"
+            class="imagen-carousel-atracciones">
+          <h5 class="texto-carousel-atracciones">Entretenimiento <br> en familia</h5>
+        </div>
+        <div class="item">
+          <img src="./img/atracciones/vida-nocturna.png"
+            alt="Buena Vista Villa Carlos Paz, Vida nocturna, desarrollo inmobiliario, Ammiraglia desarrolladora"
+            class="imagen-carousel-atracciones">
+          <h5 class="texto-carousel-atracciones">Vida nocturna</h5>
+        </div>
+        <div class="item">
+          <img src="./img/atracciones/vista-panoramica.png"
+            alt="Buena Vista Villa Carlos Paz, Vistas panorámicas, desarrollo inmobiliario, Ammiraglia desarrolladora"
+            class="imagen-carousel-atracciones">
+          <h5 class="texto-carousel-atracciones">Vistas panorámicas</h5>
+        </div>
+      </div>
+      <!-- FIN CAROUSEL ENTRETENIMIENTOS PARA CELULAR Y TRABLETS -->
+    </section>
+    <!-- SECCION EL PROYECTO -->
+    <section class="seccion-proyecto" id="departamentos">
+      <h2 class="seccion-proyecto-titulo">El Proyecto</h2>
+      <h3 class="seccion-proyecto-subtitulo">Departamentos de 2, 3 y 4 ambientes</h3>
+      <div id="carouselRenders" class="carousel slide carousel-fade carousel-proyecto" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselRenders" data-bs-slide-to="0" class="active boton-redondeado"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button class="boton-redondeado" type="button" data-bs-target="#carouselRenders" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button class="boton-redondeado" type="button" data-bs-target="#carouselRenders" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button class="boton-redondeado" type="button" data-bs-target="#carouselRenders" data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
+          <button class="boton-redondeado" type="button" data-bs-target="#carouselRenders" data-bs-slide-to="4"
+            aria-label="Slide 5"></button>
+          <button class="boton-redondeado" type="button" data-bs-target="#carouselRenders" data-bs-slide-to="5"
+            aria-label="Slide 6"></button>
+          <button class="boton-redondeado" type="button" data-bs-target="#carouselRenders" data-bs-slide-to="6"
+            aria-label="Slide 7"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="./img/renders/render_1.jpg" class="d-block w-100 imagen-carousel-proyecto"
+              alt="Buena Vista Villa Carlos Paz, Balcón, desarrollo inmobiliario, Ammiraglia desarrolladora">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./img/renders/render_2.jpg" class="d-block w-100 imagen-carousel-proyecto"
+              alt="Buena Vista Villa Carlos Paz, habitacion, desarrollo inmobiliario, Ammiraglia desarrolladora">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./img/renders/render_3.jpg" class="d-block w-100 imagen-carousel-proyecto"
+              alt="Buena Vista Villa Carlos Paz, terreza con asador, desarrollo inmobiliario, Ammiraglia desarrolladora">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./img/renders/render_4.jpg" class="d-block w-100 imagen-carousel-proyecto"
+              alt="Buena Vista Villa Carlos Paz, vista frontal, desarrollo inmobiliario, Ammiraglia desarrolladora">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./img/renders/render_5.jpg" class="d-block w-100 imagen-carousel-proyecto"
+              alt="Buena Vista Villa Carlos Paz, living comedor, desarrollo inmobiliario, Ammiraglia desarrolladora">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./img/renders/render_6.jpg" class="d-block w-100 imagen-carousel-proyecto"
+              alt="Buena Vista Villa Carlos Paz, living, desarrollo inmobiliario, Ammiraglia desarrolladora">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./img/renders/render_7.jpg" class="d-block w-100 imagen-carousel-proyecto"
+              alt="Buena Vista Villa Carlos Paz, pileta, desarrollo inmobiliario, Ammiraglia desarrolladora">
+          </div>
+        </div>
+        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselRenders" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselRenders" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button> -->
+      </div>
+      <button type="button" class="btn boton-sabermas botones boton-carousel"
+        onclick="location.href='#formulario'"><b>Quiero
+          saber
+          más</b></button>
+    </section>
+    <!-- FIN SECCION EL PROYECTO -->
+    <!-- SECCION AMENITIES DESKTOP -->
+    <section>
+      <h2 class="seccion-amenities-titulo">Amenities</h2>
+      <div class="seccion-amenities">
+        <div class="card-amen">
+          <img class="card-amen-imagen" src="./img/renders/amenities-terraza-ext.jpg"
+            alt="Buena Vista Villa Carlos Paz, Vistas panorámicas, desarrollo inmobiliario, Ammiraglia desarrolladora">
+          <h2 class="card-amen-texto">Vista <br> panorámica</h2>
+        </div>
+        <div class="card-amen">
+          <img class="card-amen-imagen" src="./img/renders/amenities-balcon.jpg"
+            alt="Buena Vista Villa Carlos Paz, Balcón aterrazado, desarrollo inmobiliario, Ammiraglia desarrolladora">
+          <h2 class="card-amen-texto">Balcón <br> aterrazado</h2>
+        </div>
+        <div class="card-amen">
+          <img class="card-amen-imagen" src="/img/renders/amenities-pileta.jpg"
+            alt="Buena Vista Villa Carlos Paz, Pileta en altura, desarrollo inmobiliario, Ammiraglia desarrolladora">
+          <h2 class="card-amen-texto">Pileta <br> en altura</h2>
+        </div>
+        <div class="card-amen">
+          <img class="card-amen-imagen" src="./img/renders/amenities-terraza.jpg"
+            alt="Buena Vista Villa Carlos Paz, Quincho con asador, desarrollo inmobiliario, Ammiraglia desarrolladora">
+          <h2 class="card-amen-texto">Quincho <br>
+            con asador</h2>
+        </div>
+      </div>
+      <!--  FIN SECCION AMENITIES DESKTOP -->
+      <!-- SECCION AMENIITIES CELULAR -->
+      <div class="contenedor-amenities-celular ">
+        <div class="card-amenities-celular" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+          <img src="./img/renders/amenities-terraza-ext.jpg"
+            alt="Buena Vista Villa Carlos Paz, Vistas panorámicas, desarrollo inmobiliario, Ammiraglia desarrolladora"
+            class="card-imagen-celular">
+          <h2 class="card-titulo-celular">Vista <br> panorámica</h2>
+        </div>
+        <div class="card-amenities-celular" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+          <img src="./img/renders/amenities-balcon.jpg"
+            alt="Buena Vista Villa Carlos Paz, Balcón aterrazado, desarrollo inmobiliario, Ammiraglia desarrolladora"
+            class="card-imagen-celular">
+          <h2 class="card-titulo-celular">Balcón <br> aterrazado</h2>
+        </div>
+        <div class="card-amenities-celular" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+          <img src="/img/renders/amenities-pileta.jpg"
+            alt="Buena Vista Villa Carlos Paz, Pileta en altura, desarrollo inmobiliario, Ammiraglia desarrolladora"
+            class="card-imagen-celular">
+          <h2 class="card-titulo-celular">Pileta <br> en altura</h2>
+        </div>
+        <div class="card-amenities-celular" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+          <img src="./img/renders/amenities-terraza.jpg"
+            alt="Buena Vista Villa Carlos Paz, Quincho con asador, desarrollo inmobiliario, Ammiraglia desarrolladora"
+            class="card-imagen-celular">
+          <h2 class="card-titulo-celular">Quincho <br>
+            con asador</h2>
+        </div>
+      </div>
+    </section>
+    <!--  FIN SECCION AMENIITIES CELULAR -->
+    <!-- INICIO SEPTIMA SECCION INVERSORES -->
+    <section class="seccion_inversores" id="nosotros">
+      <h2 class="seccion_inversores__titulo" data-aos="zoom-in">Formá parte de nuestra familia de inversores
+      </h2>
+      <h6 class="seccion_inversores__subtitulo" data-aos="zoom-in">Calidad, confianza y trayectoria</h6>
+      <div class="seccion_inversores__cards">
+        <div class="seccion_inversores__cards-card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+          data-aos-delay="290" data-aos-offset="0">
+          <div class="seccion-inversores__contenedor">
+            <h2 class="seccion_inversores__cards-card-numero">181</h2>
+            <img src="./img/iconos/unidades.png" alt="Unidades comerciales y viviendas"
+              class="seccion-inversores__icono">
+          </div>
+          <h6 class="seccion_inversores__cards-card-subtitulo">Unidades comerciales y viviendas</h6>
+        </div>
+        <div class="seccion_inversores__cards-card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+          data-aos-delay="300" data-aos-offset="0">
+          <div class="seccion-inversores__contenedor">
+            <h2 class="seccion_inversores__cards-card-numero">8</h2>
+            <img src="./img/iconos/edificio.png" alt="Proyectos nacionales e internacionales"
+              class="seccion-inversores__icono-1">
+          </div>
+          <h6 class="seccion_inversores__cards-card-subtitulo">Proyectos nacionales <br> e internacionales</h6>
+        </div>
+        <div class="seccion_inversores__cards-card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+          data-aos-delay="350" data-aos-offset="0">
+          <div class="seccion-inversores__contenedor">
+            <h2 class="seccion_inversores__cards-card-numero-2">18.5K</h2>
+            <img src="./img/iconos/trayectoria.png" alt="mts2 construidos" class="seccion-inversores__icono-2">
+          </div>
+          <h6 class="seccion_inversores__cards-card-subtitulo">mts2 construidos</h6>
+        </div>
+      </div>
+
+    </section>
+    <!-- FIN SEPTIMA SECCION INVERSORES -->
+    <!-- INICIO SECCION PREGUNTAS -->
+    <section class="seccion-preguntas">
+      <h2 class="seccion-preguntas__titulo">Preguntas frecuentes</h2>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              ¿Qué equipamiento tienen los departamentos?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <ul>
+                <li class="li-preguntas">Muebles bajo mesada y alacena completos en melamina y mesada de mármol.</li>
+                <li class="li-preguntas">Vanitorys en melanina y mármol.
+                </li>
+                <li class="li-preguntas">Frentes de placard en melanina.</li>
+                <li class="li-preguntas">Calefacción central por radiadores en cada ambiente.
+                </li>
+                <li class="li-preguntas">Preinstalación de aire acondicionado</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              ¿Qué detalles de terminación poseen?
+
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <ul>
+                <li class="li-preguntas">Aberturas de piso a techo con doble vidrio DVH.</li>
+                <li class="li-preguntas">Pisos de porcelanato de gran dimensión
+                </li>
+                <li class="li-preguntas">Griferías con cierre cerámico.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              ¿Cuál es el plazo de la construcción?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>El plazo de obra es de 24 meses.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              ¿Cuáles son las posibilidades de financiación?
+
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>Para que usted pueda acceder a nuestro desarrollo contamos con planes de pagos de nuestra
+                propia empresa adaptables a cada necesidad.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FIN  SECCION PREGUNTAS -->
+    <!-- INICIO NOVENA SECCION FORMULARIO -->
+    <div class="container-fluid" id="contacto">
+      <form class=" row seccion-formulario" id="contactForm" name="sentMessage" class="needs-validation" novalidate>
+        <h2 class="seccion-formulario__titulo">Contacto</h2>
+        <p class="seccion-formulario__subtitulo" id="formulario">¿Querés saber más sobre el proyecto?
+          Dejanos tus datos
+          y
+          te llamamos en
+          breve.</p>
+        <div class="row form-row seccion-formulario__formulario">
+          <div class="mb-1 col-md-4 form-group  contenedor-formulario_1">
+            <label for="exampleFormControlInput1" class="form-label"></label>
+            <input type="text" class="form-control seccion-formulario__formulario-casilla" id="name" required="required"
+              data-validation-required-message="Por favor ingrese su nombre." placeholder="Nombre  completo">
+            <p class="help-block text-danger"></p>
+          </div>
+          <div class="mb-1 col-md-4 form-group contenedor-formulario_1">
+            <label for="exampleFormControlInput1" class="form-label"></label>
+            <input type="email" class="form-control seccion-formulario__formulario-casilla" id="email"
+              placeholder="Email" required="required"
+              data-validation-required-message="Por favor ingrese un email valido.">
+            <p class="help-block text-danger"></p>
+          </div>
+          <div class="mb-1 col-md-4 form-group contenedor-formulario_1">
+            <label for="exampleFormControlInput1" class="form-label"></label>
+            <input type="text" class="form-control seccion-formulario__formulario-casilla" id="phone"
+              placeholder="Teléfono" required="required" data-validation-required-message="Ingrese un n° de Teléfono.">
+            <p class="help-block text-danger"></p>
+          </div>
+          <div class="mb-3 col-md-12 form-group contenedor-formulario_1">
+            <label for="exampleFormControlTextarea1" class="form-label"></label>
+            <textarea
+              class="form-control seccion-formulario__formulario-casilla seccion-formulario__formulario-casilla-mob"
+              id="message" rows="1" placeholder="Mensaje"></textarea>
+
+          </div>
+
+        </div>
+        <button name="sendMessageButton" type="submit"
+          class="btn btn-primary seccion-formularios__formulario-boton col-md-12 botones"
+          id="sendMessageButton">Enviar</button>
+        <!-- <a href="#inicio">
+            <i class="fas fa-chevron-up seccion-formulario__icono-volver-inicio"></i></a> -->
+        <a class="flot" href="#inicio"><i class=" icono-form fas fa-chevron-up"></i></a>
+      </form>
+
+    </div>
+    <!-- FIN NOVENA SECCION FORMULARIO -->
+    <!-- INICIO FOOTER -->
+    <footer class="footer">
+      <div class="footer__caja">
+        <img src="./img/iconos/ammiraglia-logo.png" alt="Ammiraglia logo" class="footer__caja-logo">
+        <div class="caja-footer-informacion">
+          <h6 class="footer__caja-telefono">Justiniano Posse, CBA
+            2553, ARG</class=>
+          </h6>
+          <h6 class="footer__caja-telefono footer-caja-central"><a class="footer__caja-telefono-a"
+              href="tel:+5493537554837">+54 9
+              3537
+              554837</a></h6>
+          <h6 class="footer__caja-telefono"><a href="mailto:hola@ammiragliadesarrolladora.com"
+              class="footer__caja-telefono-a">hola@ammiragliadesarrolladora.com</a></h6>
+        </div>
+        <p class="pie-de-pagina text-white">Landing realizada por <a href="https://krak.com.ar/" target="_blank"
+            class="krak">Krak</a>
+        </p>
+      </div>
+    </footer>
+    <!-- FIN FOOTER -->
+    <!-- COMIENZO FIXED BOTTOM -->
+    <div class="fixed-bottom container-fluid">
+      <div class="row fondo-footer justify-content-center align-items-center">
+        <div class="col-6 d-lg-none mb-1 mt-4 contenedor-boton-fixedbotom">
+          <div class="d-grid gap-2 ">
+            <button class="btn color-boton-info color-letra-info" type="button" onclick="location.href='#formulario'"
+              class="color-letra-info"><a href="#formulario"></a>Quiero más
+              Info</button>
+          </div>
+        </div>
+
+        <div class="col-6 d-lg-none mb-1 mt-4  contenedor-boton-fixedbotom">
+          <div class="d-grid gap-2  ">
+            <button class="btn color-boton-wpp color-letra" type="button"
+              onclick="location.href='https:/api.whatsapp.com/send?phone=5493537554837'" target="_blank"><i
+                class="fab fa-whatsapp whatsapp-footer"></i>WhatsApp</button>
+          </div>
+        </div>
+        <div class="col-4 d-lg-none colorbarra"></div>
+        <div class="col-4 d-lg-none barrafooter"></div>
+        <div class="col-4 d-lg-none colorbarra"></div>
+      </div>
+    </div>
+    <!-- FIN FIXED BOTTOM -->
+  </div>
+  <!-- fin div del boton mostrar -->
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <!-- animaciones aos -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="./index.js"></script>
+  <!-- owl carousel -->
+  <script src="./lib/owlCarousel/dist/owl.carousel.min.js"></script>
+  <script type="text/javascript">
+    // $(document).ready(setInterval(function () {
+    //   setTimeout(function () {
+    //     $(".content").fadeOut(1500);
+    //   }, 5000);
+    //   setTimeout(function () {
+    //     $(".content2").fadeIn(1500);
+    //   }, 10000);
+
+    // }), 120000);
+    $(document).ready(function () {
+      setInterval(function () {
+        $(".content").fadeOut(1500);
+      }, 5000);
+      setInterval(function () {
+        $(".content2").fadeIn(1500);
+      }, 90000);
+
+    });
+  </script>
+  <script>
+    $(document).ready(function () {
+      $(".owl-carousel").owlCarousel();
+    });
+    var owl = $('.owl-carousel');
+    owl.owlCarousel({
+      items: 4,
+      loop: true,
+      margin: 10,
+      autoWidth: true,
+      autoplay: true,
+      autoplayTimeout: 3000,
+      autoplayHoverPause: true
+    });
+    $('.play').on('click', function () {
+      owl.trigger('play.owl.autoplay', [1000])
+    })
+    $('.stop').on('click', function () {
+      owl.trigger('stop.owl.autoplay')
+    })
+  </script>
+  <!-- fin owl carousel -->
+  <!-- doppler -->
+  <script src="./contact_me.js"></script>
+  <script src="./jqBootstrapValidation.js"></script>
+  <script type="text/javascript"> </script>
+
+  <!-- script owl-carousel -->
+
+
+
+</body>
+
+</html>
